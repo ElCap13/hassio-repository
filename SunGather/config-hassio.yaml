@@ -5,7 +5,7 @@ inverter:
   connection: modbus
   smart_meter: true
   log_console: INFO
-  level: 1
+  level: 2
   # port: 502
   # timeout: 10
   # retries: 3
