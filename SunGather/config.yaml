@@ -8,7 +8,7 @@ arch:
   - aarch64
   - amd64
   - i386
-url: "https://github.com/bohdan-s/SunGather"
+url: "https://github.com/ElCap13/SunGather"
 startup: application
 ingress: true
 ingress_port: 8099
@@ -36,6 +36,6 @@ schema:
   smart_meter: bool
   custom_mqtt_server: bool
   log_console: "list(OFF|INFO|WARNING|ERROR|DEBUG)?"
-  level: int(1,3)?
+  level: "list(1|2|3)?"
 panel_icon: mdi:SolarPowerVariant
 init: false
